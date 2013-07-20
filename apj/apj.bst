@@ -409,7 +409,7 @@ FUNCTION {format.names}
 %% also been contributed by Andy Marble <amarble@as.arizona.edu>
 %% Added the following two lines to make 8 author upper limit to
 %% reference list, based on what is found in aas.bst.
-  numnames #8 >
+  numnames #3 >
     { s #1 "{vv~}{ll}{, jj}{, f.,}" format.name$ " {et~al.}" * }
     { { namesleft #0 > }
       { s nameptr
